@@ -1,0 +1,21 @@
+modId="saddlecow"
+version="1.0.0"
+displayName="Saddle Cow Mod"
+description="Позволяет надевать седло на корову и управлять ей с помощью пшеницы."
+logoFile="saddlecow.png"
+credits="Your Name"
+authors="Your Name"
+
+[[dependencies.saddlecow]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.saddlecow]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
